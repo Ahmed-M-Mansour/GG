@@ -13,9 +13,11 @@ import {
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../data/golden.data";
+import goldenLogo from "../data/goldenlogo.png"
 
 export default function GoldenNavbar() {
   const [openNav, setOpenNav] = useState(false);
+
 
   useEffect(() => {
     window.addEventListener(
@@ -86,7 +88,7 @@ export default function GoldenNavbar() {
             className="mr-4 cursor-pointer py-1.5 font-normal"
           >
             <Avatar
-              src="https://i.postimg.cc/130vN908/goldenlogo-1.png"
+              src={goldenLogo}
               alt="Golden Group"
               size="md"
             />
