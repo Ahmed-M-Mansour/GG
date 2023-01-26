@@ -12,7 +12,7 @@ function Valves() {
       <section className="container mx-auto my-12 py-8">
         {/* ----------------------------- */}
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
-          <div className="w-2/4 ">
+          <div className="lg:w-2/4 ">
             <figure>
               <img
                 src="https://www.researchdive.com/blogImages/qdbjqd0k5Y.jpeg"
@@ -20,7 +20,7 @@ function Valves() {
               />
             </figure>
           </div>
-          <div className="w-2/4 m-6">
+          <div className="lg:w-2/4 lg:m-6">
             <div className="card-body">
               <h2 className="card-title">Batterfly Valves</h2>
               <ul className="list-disc">
@@ -57,7 +57,7 @@ function Valves() {
         </div>
         {/* ----------------------------- */}
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
-          <div className="w-2/4 m-6">
+          <div className="lg:w-2/4 lg:m-6">
             <div className="card-body">
               <h2 className="card-title">Angle Valves</h2>
               <ul className="list-disc">
@@ -91,7 +91,7 @@ function Valves() {
               </div>
             </div>
           </div>
-          <div className="w-2/4">
+          <div className="lg:w-2/4">
             <figure>
               <img
                 src="https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/73/593561/1.jpg?6965"
@@ -102,7 +102,7 @@ function Valves() {
         </div>
         {/* ----------------------------- */}
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
-          <div className="w-2/4 ">
+          <div className="lg:w-2/4 ">
             <figure>
               <img
                 src="https://lh3.googleusercontent.com/0imqBKm570tDVZCs68Pp1S2cKrSD-210Jeea59LHYTqz9cD73moZB0lsoD6vmn25Wby8Ijud1vkHNHyO3d6qEqOknq5p-Mw7cwgXUw=e30-l81-nu-w701-h701"
@@ -110,12 +110,11 @@ function Valves() {
               />
             </figure>
           </div>
-          <div className="w-2/4 m-6">
+          <div className="lg:w-2/4 lg:m-6">
             <div className="card-body">
               <h2 className="card-title">Ball Valves</h2>
               <ul className="list-disc">
                 <li>
-                  {" "}
                   Butterfly valves are a family of quarter-turn rotational
                   motion valves that are used in pipelines to shut-off flow. It
                   is often said that butterfly valves can be used to regulate
@@ -131,7 +130,6 @@ function Valves() {
                   smaller installation footprints and faster actuation speeds.
                 </li>
                 <li>
-                  {" "}
                   Hawle butterfly valves are flanged double eccentric type
                   (double offset) type. The double offset or eccentricity refers
                   to the fact that this valve design involves two offsets of the
@@ -147,12 +145,11 @@ function Valves() {
         </div>
         {/* ----------------------------- */}
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
-          <div className="w-2/4 m-6">
+          <div className="lg:w-2/4 lg:m-6">
             <div className="card-body">
               <h2 className="card-title">VIP Valves</h2>
               <ul className="list-disc">
                 <li>
-                  {" "}
                   Butterfly valves are a family of quarter-turn rotational
                   motion valves that are used in pipelines to shut-off flow. It
                   is often said that butterfly valves can be used to regulate
@@ -168,7 +165,6 @@ function Valves() {
                   smaller installation footprints and faster actuation speeds.
                 </li>
                 <li>
-                  {" "}
                   Hawle butterfly valves are flanged double eccentric type
                   (double offset) type. The double offset or eccentricity refers
                   to the fact that this valve design involves two offsets of the
@@ -181,7 +177,7 @@ function Valves() {
               </div>
             </div>
           </div>
-          <div className="w-2/4">
+          <div className="lg:w-2/4">
             <figure>
               <img
                 src="https://cdn.shopify.com/s/files/1/0546/6485/5735/products/comissioningvalve3_grande.jpg?v=1618398979"
@@ -193,7 +189,7 @@ function Valves() {
 
         {/* ----------------------------- */}
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
-          <div className="w-2/4 ">
+          <div className="lg:w-2/4 ">
             <figure>
               <img
                 src="https://www.valfonta.com/wp-content/uploads/2020/02/ok-C1-PROVISIONAL-500x500.jpg"
@@ -201,12 +197,11 @@ function Valves() {
               />
             </figure>
           </div>
-          <div className="w-2/4 m-6">
+          <div className="lg:w-2/4 lg:m-6">
             <div className="card-body">
               <h2 className="card-title">Control Valves</h2>
               <ul className="list-disc">
                 <li>
-                  {" "}
                   Butterfly valves are a family of quarter-turn rotational
                   motion valves that are used in pipelines to shut-off flow. It
                   is often said that butterfly valves can be used to regulate
@@ -222,7 +217,6 @@ function Valves() {
                   smaller installation footprints and faster actuation speeds.
                 </li>
                 <li>
-                  {" "}
                   Hawle butterfly valves are flanged double eccentric type
                   (double offset) type. The double offset or eccentricity refers
                   to the fact that this valve design involves two offsets of the
@@ -238,12 +232,11 @@ function Valves() {
         </div>
         {/* ----------------------------- */}
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
-          <div className="w-2/4 m-6">
+          <div className="lg:w-2/4 lg:m-6">
             <div className="card-body">
               <h2 className="card-title">Control Valves Accessories</h2>
               <ul className="list-disc">
                 <li>
-                  {" "}
                   Butterfly valves are a family of quarter-turn rotational
                   motion valves that are used in pipelines to shut-off flow. It
                   is often said that butterfly valves can be used to regulate
@@ -259,7 +252,6 @@ function Valves() {
                   smaller installation footprints and faster actuation speeds.
                 </li>
                 <li>
-                  {" "}
                   Hawle butterfly valves are flanged double eccentric type
                   (double offset) type. The double offset or eccentricity refers
                   to the fact that this valve design involves two offsets of the
@@ -272,7 +264,7 @@ function Valves() {
               </div>
             </div>
           </div>
-          <div className="w-2/4">
+          <div className="lg:w-2/4">
             <figure>
               <img
                 src="https://instrumentationtools.com/wp-content/uploads/2020/06/Control-Valve-with-Limit-Switches.png"
@@ -284,7 +276,7 @@ function Valves() {
 
         {/* ----------------------------- */}
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
-          <div className="w-2/4 ">
+          <div className="lg:w-2/4 ">
             <figure>
               <img
                 src="https://res.cloudinary.com/rsc/image/upload/b_auto,c_pad,dpr_1.0,f_auto,h_758,q_auto,w_1350/c_pad,h_758,w_1350/R9076378-01?pgw=1&pgwact=1"
@@ -292,12 +284,11 @@ function Valves() {
               />
             </figure>
           </div>
-          <div className="w-2/4 m-6">
+          <div className="lg:w-2/4 lg:m-6">
             <div className="card-body">
               <h2 className="card-title">Solenoid Valves</h2>
               <ul className="list-disc">
                 <li>
-                  {" "}
                   Butterfly valves are a family of quarter-turn rotational
                   motion valves that are used in pipelines to shut-off flow. It
                   is often said that butterfly valves can be used to regulate
@@ -313,7 +304,6 @@ function Valves() {
                   smaller installation footprints and faster actuation speeds.
                 </li>
                 <li>
-                  {" "}
                   Hawle butterfly valves are flanged double eccentric type
                   (double offset) type. The double offset or eccentricity refers
                   to the fact that this valve design involves two offsets of the
@@ -329,12 +319,11 @@ function Valves() {
         </div>
         {/* ----------------------------- */}
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
-          <div className="w-2/4 m-6">
+          <div className="lg:w-2/4 lg:m-6">
             <div className="card-body">
               <h2 className="card-title">Dust Valves</h2>
               <ul className="list-disc">
                 <li>
-                  {" "}
                   Butterfly valves are a family of quarter-turn rotational
                   motion valves that are used in pipelines to shut-off flow. It
                   is often said that butterfly valves can be used to regulate
@@ -350,7 +339,6 @@ function Valves() {
                   smaller installation footprints and faster actuation speeds.
                 </li>
                 <li>
-                  {" "}
                   Hawle butterfly valves are flanged double eccentric type
                   (double offset) type. The double offset or eccentricity refers
                   to the fact that this valve design involves two offsets of the
@@ -363,7 +351,7 @@ function Valves() {
               </div>
             </div>
           </div>
-          <div className="w-2/4">
+          <div className="lg:w-2/4">
             <figure>
               <img
                 src="https://storage.tameson.com/asset/Articles/general/pulse-jet-solenoid-valve-400.jpg"

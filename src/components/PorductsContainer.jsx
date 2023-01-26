@@ -11,7 +11,7 @@ import { productsContainer } from "../data/golden.data";
 function PorductsContainer() {
   return (
     <div className="container mx-auto my-12">
-      <div className="flex justify-center items-center m-5 my-12 ">
+      <div className="flex justify-center items-center lg:m-5 my-12 ">
         <Typography
           variant="h1"
           className="pt-8 pb-4 text-center bg-clip-text text-transparent bg-gradient-to-r  from-yellow-300 to-yellow-900 "
@@ -20,10 +20,10 @@ function PorductsContainer() {
         </Typography>
       </div>
 
-      <div class="grid lg:grid-cols-3 gap-8 my-6 px-4 lg:mx-8 m-4 ">
+      <div class="grid lg:grid-cols-3 gap-8 my-6 px-4 lg:mx-8 lg:m-4 ">
         {productsContainer.map((item) => {
           return (
-            <Card className="w-96 my-6">
+            <Card className="my-6">
               <CardHeader color="blue" className="relative h-56">
                 <img
                   src={item.imgUrl}
