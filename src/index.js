@@ -18,7 +18,7 @@ import Valves from "./pages/Valves";
 import BatterflyValves from "./pages/valves/BatterflyValves";
 import Pneumatic from "./pages/Pneumatic";
 import Instrumentation from "./pages/Instrumentation";
-
+import ProductDetails from "./pages/ProductDetails";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -68,6 +68,10 @@ const router = createBrowserRouter([
   {
     path: "/docs",
     element: <Docs />,
+  },
+  {
+    path: "/products/details",
+    element: <ProductDetails/>
   },
 ]);
 

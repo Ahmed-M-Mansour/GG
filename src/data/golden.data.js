@@ -23,7 +23,7 @@ export const productsContainer = [
     imgUrl:
       "https://images.unsplash.com/photo-1582642880428-3e2c04ad14ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     subCategories: [
-      { id: 1, name: "Batterfly Valves", routerLink: "/products/valves/batterfly" },
+      { id: 1, name: "Batterfly Valves", routerLink: "/products/details" },
       { id: 2, name: "Angle Valves", routerLink: "/products/valves/angle" },
       { id: 3, name: "Ball Valves", routerLink: "/products/valves/ball" },
       { id: 4, name: "VIP Valves", routerLink: "/products/valves/vip" },

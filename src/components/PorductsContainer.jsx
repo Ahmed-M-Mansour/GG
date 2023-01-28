@@ -16,7 +16,7 @@ function PorductsContainer() {
           variant="h1"
           className="pt-8 pb-4 text-center bg-clip-text text-transparent bg-gradient-to-r  from-yellow-300 to-yellow-900 "
         >
-          OUR PRODUCTS
+           PRODUCTS
         </Typography>
       </div>
 

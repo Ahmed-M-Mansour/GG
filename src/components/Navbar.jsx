@@ -52,7 +52,7 @@ export default function GoldenNavbar() {
           ) : (
             <Menu key={item.id}>
               <MenuHandler>
-                <Typography className=" cursor-pointer" variant="gradient">
+                <Typography className=" cursor-pointer text-gray-800 hover:-translate-y-1 hover:underline hover:underline-offset-8" variant="gradient">
                   {item.name}
                 </Typography>
               </MenuHandler>

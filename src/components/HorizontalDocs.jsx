@@ -1,4 +1,4 @@
-import React from "react";
+import { Avatar } from "@material-tailwind/react";
 
 function HorizontalDocs() {
   return (
@@ -34,7 +34,11 @@ function HorizontalDocs() {
               aria-controls="tabs-homeVertical"
               aria-selected="true"
             >
-              Home
+              <Avatar
+                src="https://iili.io/HcPHaAQ.jpg"
+                alt="avatar"
+                variant="circular"
+              />
             </a>
           </li>
           <li className="nav-item flex-grow text-center" role="presentation">
@@ -61,7 +65,11 @@ function HorizontalDocs() {
               aria-controls="tabs-profileVertical"
               aria-selected="false"
             >
-              Profile
+              <Avatar
+                src="https://iili.io/HcPHXUJ.md.jpg"
+                alt="avatar"
+                variant="circular"
+              />
             </a>
           </li>
           <li className="nav-item flex-grow text-center" role="presentation">
@@ -88,7 +96,11 @@ function HorizontalDocs() {
               aria-controls="tabs-messagesVertical"
               aria-selected="false"
             >
-              Messages
+              <Avatar
+                src="https://iili.io/HcPHWla.jpg"
+                alt="avatar"
+                variant="circular"
+              />
             </a>
           </li>
         </ul>
@@ -100,20 +112,22 @@ function HorizontalDocs() {
             aria-labelledby="tabs-home-tabVertical"
           >
             <div className="container mx-auto">
-              <div className="grid lg:grid-cols-2  sm:grid-cols-1 gap-12 lg:px-12 ">
-                <div className=" w-full justify-center items-center my-6">
+              <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 ">
+                <div className=" w-full my-6">
                   <iframe
                     className="w-full aspect-video "
                     style={{ width: "100%", height: "100%" }}
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
-                  <a
-                    className="btn  my-4"
-                    href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
-                    target="_blank"
-                  >
-                    Open PDF
-                  </a>
+                  <div className="text-center">
+                    <a
+                      className="btn  my-4 "
+                      href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
+                      target="_blank"
+                    >
+                      Open PDF
+                    </a>
+                  </div>
                 </div>
 
                 <div className="w-full justify-center items-center my-6">
@@ -122,13 +136,15 @@ function HorizontalDocs() {
                     style={{ width: "100%", height: "100%" }}
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
-                  <a
-                    className="btn  my-4 "
-                    href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
-                    target="_blank"
-                  >
-                    Open PDF
-                  </a>
+                  <div className="text-center">
+                    <a
+                      className="btn  my-4 "
+                      href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
+                      target="_blank"
+                    >
+                      Open PDF
+                    </a>
+                  </div>
                 </div>
 
                 <div className="w-full justify-center items-center my-6">
@@ -137,13 +153,15 @@ function HorizontalDocs() {
                     style={{ width: "100%", height: "100%" }}
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
-                  <a
-                    className="btn  my-4 "
-                    href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
-                    target="_blank"
-                  >
-                    Open PDF
-                  </a>
+                  <div className="text-center">
+                    <a
+                      className="btn  my-4 "
+                      href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
+                      target="_blank"
+                    >
+                      Open PDF
+                    </a>
+                  </div>
                 </div>
 
                 <div className="w-full justify-center items-center my-6">
@@ -152,13 +170,15 @@ function HorizontalDocs() {
                     style={{ width: "100%", height: "100%" }}
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
-                  <a
-                    className="btn  my-4 "
-                    href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
-                    target="_blank"
-                  >
-                    Open PDF
-                  </a>
+                  <div className="text-center">
+                    <a
+                      className="btn  my-4 "
+                      href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
+                      target="_blank"
+                    >
+                      Open PDF
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -170,20 +190,22 @@ function HorizontalDocs() {
             aria-labelledby="tabs-profile-tabVertical"
           >
             <div className="container mx-auto">
-              <div className="grid lg:grid-cols-2  sm:grid-cols-1 gap-12 lg:px-12 ">
+              <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 ">
                 <div className=" w-full justify-center items-center my-6">
                   <iframe
                     className="w-full aspect-video "
                     style={{ width: "100%", height: "100%" }}
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
-                  <a
-                    className="btn  my-4"
-                    href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
-                    target="_blank"
-                  >
-                    Open PDF
-                  </a>
+                  <div className="text-center">
+                    <a
+                      className="btn  my-4 "
+                      href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
+                      target="_blank"
+                    >
+                      Open PDF
+                    </a>
+                  </div>
                 </div>
 
                 <div className="w-full justify-center items-center my-6">
@@ -192,13 +214,15 @@ function HorizontalDocs() {
                     style={{ width: "100%", height: "100%" }}
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
-                  <a
-                    className="btn  my-4 "
-                    href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
-                    target="_blank"
-                  >
-                    Open PDF
-                  </a>
+                  <div className="text-center">
+                    <a
+                      className="btn  my-4 "
+                      href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
+                      target="_blank"
+                    >
+                      Open PDF
+                    </a>
+                  </div>
                 </div>
 
                 <div className="w-full justify-center items-center my-6">
@@ -207,13 +231,15 @@ function HorizontalDocs() {
                     style={{ width: "100%", height: "100%" }}
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
-                  <a
-                    className="btn  my-4 "
-                    href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
-                    target="_blank"
-                  >
-                    Open PDF
-                  </a>
+                  <div className="text-center">
+                    <a
+                      className="btn  my-4 "
+                      href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
+                      target="_blank"
+                    >
+                      Open PDF
+                    </a>
+                  </div>
                 </div>
 
                 <div className="w-full justify-center items-center my-6">
@@ -222,13 +248,15 @@ function HorizontalDocs() {
                     style={{ width: "100%", height: "100%" }}
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
-                  <a
-                    className="btn  my-4 "
-                    href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
-                    target="_blank"
-                  >
-                    Open PDF
-                  </a>
+                  <div className="text-center">
+                    <a
+                      className="btn  my-4 "
+                      href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
+                      target="_blank"
+                    >
+                      Open PDF
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -240,7 +268,7 @@ function HorizontalDocs() {
             aria-labelledby="tabs-profile-tabVertical"
           >
             <div className="container mx-auto">
-              <div className="grid lg:grid-cols-2  sm:grid-cols-1 gap-12 lg:px-12 ">
+              <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 ">
                 <div className=" w-full justify-center items-center my-6">
                   <iframe
                     className="w-full aspect-video "
@@ -248,7 +276,7 @@ function HorizontalDocs() {
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
                   <a
-                    className="btn  my-4"
+                    className="btn my-4"
                     href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                     target="_blank"
                   >
@@ -262,13 +290,15 @@ function HorizontalDocs() {
                     style={{ width: "100%", height: "100%" }}
                     src="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
                   ></iframe>
-                  <a
-                    className="btn  my-4 "
-                    href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
-                    target="_blank"
-                  >
-                    Open PDF
-                  </a>
+                  <div>
+                    <a
+                      className="btn  my-4 "
+                      href="https://bayanebartar.org/file-dl/library/IELTS3/Essential-English.pdf"
+                      target="_blank"
+                    >
+                      Open PDF
+                    </a>
+                  </div>
                 </div>
 
                 <div className="w-full justify-center items-center my-6">
